@@ -1,0 +1,41 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.main {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  width: 600px;
+}
+
+.diagonal {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  border: 2px solid black;
+  width: 200px;
+  min-height: 200px;
+}
+
+.kotak {
+  background-color: salmon;
+  border: 2px solid blue;
+  font-size: 20px;
+  font-weight: bold;
+  padding-top: 20px;
+  text-align: center;
+}
+
+
+/* .main {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: #2196F3;
+  padding: 10px;
+}
+.diagonal {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+} */
