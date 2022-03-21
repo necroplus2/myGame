@@ -4,25 +4,35 @@ body {
 
 .main {
   display: grid;
+  grid-template-columns: auto auto;
+}
+
+
+.game {
+  display: grid;
   grid-template-columns: auto auto auto;
-  width: 600px;
+  width: 350px;
+
 }
 
 .diagonal {
   display: grid;
   grid-template-columns: auto auto auto;
   border: 2px solid black;
-  width: 200px;
-  min-height: 200px;
+  width: 120px;
+  min-height: 120px;
 }
 
 .kotak {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: salmon;
-  border: 2px solid blue;
-  font-size: 20px;
-  font-weight: bold;
-  padding-top: 20px;
-  text-align: center;
+  border: 1px solid blue;
+  font-size: 25px;
+  /* font-weight: bold; */
+  /* padding-top: 20px; */
+  color:azure;
 }
 
 

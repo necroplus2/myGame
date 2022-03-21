@@ -1,0 +1,3 @@
+- dalam sebuah baris atau kolom, suatu angka tidak dapat berulang.
+- dalam kotak besar, angka 1 sampai 9 harus muncul dan tidak dapat berulang.
+- Untuk setiap kotak yang diisi, pastikan Anda memeriksa kembali logika Anda; satu kesalahan saja dapat merusak keseluruhan teka teki sudoku.
