@@ -3,49 +3,55 @@ body {
 }
 
 .main {
-  display: grid;
-  grid-template-columns: auto auto;
+  display: flex;
+  justify-content: left;
+  /* border: 2px solid royalblue; */
 }
 
+.menu {
+  font-family: Arial, Helvetica, sans-serif;
+}
 
 .game {
   display: grid;
   grid-template-columns: auto auto auto;
-  width: 350px;
-
+  border: 3px solid black;
+  width: 500px;
 }
 
 .diagonal {
   display: grid;
   grid-template-columns: auto auto auto;
   border: 2px solid black;
-  width: 120px;
-  min-height: 120px;
 }
 
 .kotak {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: salmon;
-  border: 1px solid blue;
+  background-color: rgba(255, 176, 143, .3);
+  border: 1px solid rgb(77, 77, 124);
   font-size: 25px;
-  /* font-weight: bold; */
-  /* padding-top: 20px; */
   color:azure;
+  cursor: context-menu;
+  min-height: 40px; 
+  
+  /* no selection text ( block text ) */
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently
+  supported by Chrome, Edge, Opera and Firefox */
+}
+
+.kotakKlik {
+  background-color: rgba(255, 176, 143, .9);
+}
+
+.diagonalKlik {
+  background-color: rgba(255, 176, 143, .5);
 }
 
 
-/* .main {
-  display: grid;
-  grid-template-columns: auto auto auto;
-  background-color: #2196F3;
-  padding: 10px;
-}
-.diagonal {
-  background-color: rgba(255, 255, 255, 0.8);
-  border: 1px solid rgba(0, 0, 0, 0.8);
-  padding: 20px;
-  font-size: 30px;
-  text-align: center;
-} */
