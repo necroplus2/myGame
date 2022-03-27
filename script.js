@@ -74,11 +74,14 @@ kotakIsi.forEach(function(el){
         e.target.parentNode.classList.add("diagonalKlik");
       }
 
-      if(e.target.parentNode.childNodes[i].classList[1] == "kotakKlik"){
+      if(e.target == e.target.parentNode.childNodes[i] && e.target.classList[1] == "kotakKlik"){
+        e.target.classList.add("kotakKlik");
+      }else if(e.target.parentNode.childNodes[i].classList[1] == "kotakKlik"){
         e.target.parentNode.childNodes[i].classList.remove("kotakKlik");
       }else if(e.target == e.target.parentNode.childNodes[i]){
         e.target.classList.add("kotakKlik");
       }
+
       
 
 
