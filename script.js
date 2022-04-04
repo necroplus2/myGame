@@ -36,6 +36,7 @@ for(let i = 0; i < 9; i++) {
 }
 
 
+// eventListener click
 const kotakIsi = document.querySelectorAll('.kotak');
 
 kotakIsi.forEach(function(el){
@@ -209,8 +210,88 @@ kotakIsi.forEach(function(el){
               e.target.classList.remove('kotakDiagonal');
             })
           }
-        }
+        },
 
+        kolom1 : function(){
+          if(e.target == classKotak[bloker.h1[0]] || e.target == classKotak[bloker.h2[0]] || e.target == classKotak[bloker.h3[0]] || e.target == classKotak[bloker.h4[0]] || e.target == classKotak[bloker.h5[0]] || e.target == classKotak[bloker.h6[0]] ||e.target == classKotak[bloker.h7[0]] || e.target == classKotak[bloker.h8[0]] || e.target == classKotak[bloker.h9[0]]){
+            bloker.v1.forEach(function(v){
+              classKotak[v].classList.add('kotakDiagonal');
+              e.target.classList.remove('kotakDiagonal');
+            })
+          }
+        },
+
+        kolom2 : function(){
+          if(e.target == classKotak[bloker.h1[1]] || e.target == classKotak[bloker.h2[1]] || e.target == classKotak[bloker.h3[1]] || e.target == classKotak[bloker.h4[1]] || e.target == classKotak[bloker.h5[1]] || e.target == classKotak[bloker.h6[1]] ||e.target == classKotak[bloker.h7[1]] || e.target == classKotak[bloker.h8[1]] || e.target == classKotak[bloker.h9[1]]){
+            bloker.v2.forEach(function(v){
+              classKotak[v].classList.add('kotakDiagonal');
+              e.target.classList.remove('kotakDiagonal');
+            })
+          }
+        },
+
+        kolom3 : function(){
+          if(e.target == classKotak[bloker.h1[2]] || e.target == classKotak[bloker.h2[2]] || e.target == classKotak[bloker.h3[2]] || e.target == classKotak[bloker.h4[2]] || e.target == classKotak[bloker.h5[2]] || e.target == classKotak[bloker.h6[2]] ||e.target == classKotak[bloker.h7[2]] || e.target == classKotak[bloker.h8[2]] || e.target == classKotak[bloker.h9[2]]){
+            bloker.v3.forEach(function(v){
+              classKotak[v].classList.add('kotakDiagonal');
+              e.target.classList.remove('kotakDiagonal');
+            })
+          }
+        },
+
+        kolom4 : function(){
+          if(e.target == classKotak[bloker.h1[3]] || e.target == classKotak[bloker.h2[3]] || e.target == classKotak[bloker.h3[3]] || e.target == classKotak[bloker.h4[3]] || e.target == classKotak[bloker.h5[3]] || e.target == classKotak[bloker.h6[3]] ||e.target == classKotak[bloker.h7[3]] || e.target == classKotak[bloker.h8[3]] || e.target == classKotak[bloker.h9[3]]){
+            bloker.v4.forEach(function(v){
+              classKotak[v].classList.add('kotakDiagonal');
+              e.target.classList.remove('kotakDiagonal');
+            })
+          }
+        },
+
+        kolom5 : function(){
+          if(e.target == classKotak[bloker.h1[4]] || e.target == classKotak[bloker.h2[4]] || e.target == classKotak[bloker.h3[4]] || e.target == classKotak[bloker.h4[4]] || e.target == classKotak[bloker.h5[4]] || e.target == classKotak[bloker.h6[4]] ||e.target == classKotak[bloker.h7[4]] || e.target == classKotak[bloker.h8[4]] || e.target == classKotak[bloker.h9[4]]){
+            bloker.v5.forEach(function(v){
+              classKotak[v].classList.add('kotakDiagonal');
+              e.target.classList.remove('kotakDiagonal');
+            })
+          }
+        },
+
+        kolom6 : function(){
+          if(e.target == classKotak[bloker.h1[5]] || e.target == classKotak[bloker.h2[5]] || e.target == classKotak[bloker.h3[5]] || e.target == classKotak[bloker.h4[5]] || e.target == classKotak[bloker.h5[5]] || e.target == classKotak[bloker.h6[5]] ||e.target == classKotak[bloker.h7[5]] || e.target == classKotak[bloker.h8[5]] || e.target == classKotak[bloker.h9[5]]){
+            bloker.v6.forEach(function(v){
+              classKotak[v].classList.add('kotakDiagonal');
+              e.target.classList.remove('kotakDiagonal');
+            })
+          }
+        },
+
+        kolom7 : function(){
+          if(e.target == classKotak[bloker.h1[6]] || e.target == classKotak[bloker.h2[6]] || e.target == classKotak[bloker.h3[6]] || e.target == classKotak[bloker.h4[6]] || e.target == classKotak[bloker.h5[6]] || e.target == classKotak[bloker.h6[6]] ||e.target == classKotak[bloker.h7[6]] || e.target == classKotak[bloker.h8[6]] || e.target == classKotak[bloker.h9[6]]){
+            bloker.v7.forEach(function(v){
+              classKotak[v].classList.add('kotakDiagonal');
+              e.target.classList.remove('kotakDiagonal');
+            })
+          }
+        },
+
+        kolom8 : function(){
+          if(e.target == classKotak[bloker.h1[7]] || e.target == classKotak[bloker.h2[7]] || e.target == classKotak[bloker.h3[7]] || e.target == classKotak[bloker.h4[7]] || e.target == classKotak[bloker.h5[7]] || e.target == classKotak[bloker.h6[7]] ||e.target == classKotak[bloker.h7[7]] || e.target == classKotak[bloker.h8[7]] || e.target == classKotak[bloker.h9[7]]){
+            bloker.v8.forEach(function(v){
+              classKotak[v].classList.add('kotakDiagonal');
+              e.target.classList.remove('kotakDiagonal');
+            })
+          }
+        },
+
+        kolom9 : function(){
+          if(e.target == classKotak[bloker.h1[8]] || e.target == classKotak[bloker.h2[8]] || e.target == classKotak[bloker.h3[8]] || e.target == classKotak[bloker.h4[8]] || e.target == classKotak[bloker.h5[8]] || e.target == classKotak[bloker.h6[8]] ||e.target == classKotak[bloker.h7[8]] || e.target == classKotak[bloker.h8[8]] || e.target == classKotak[bloker.h9[8]]){
+            bloker.v9.forEach(function(v){
+              classKotak[v].classList.add('kotakDiagonal');
+              e.target.classList.remove('kotakDiagonal');
+            })
+          }
+        },
 
 
 
@@ -227,156 +308,26 @@ kotakIsi.forEach(function(el){
       bloker.baris8();
       bloker.baris9();
 
-
-      if(e.target == classKotak[bloker.h1[7]] || e.target == classKotak[bloker.h2[7]] || e.target == classKotak[bloker.h3[7]] || e.target == classKotak[bloker.h4[7]] || e.target == classKotak[bloker.h5[7]] || e.target == classKotak[bloker.h6[7]] ||e.target == classKotak[bloker.h7[7]] || e.target == classKotak[bloker.h8[7]] || e.target == classKotak[bloker.h9[7]]){
-        bloker.v8.forEach(function(v){
-          classKotak[v].classList.add('kotakDiagonal');
-          e.target.classList.remove('kotakDiagonal');
-        })
-      }
-
-
-
-
-
-
-
-
-
-      
-      // for(let h in bloker) {
-      //   console.log(bloker[h][i]);
-      // }
-
-      
-      // if(e.target == classKotak[bloker.h1[i]]){
-      //   delHor();
-      //   bloker.h1.forEach(function(hh1){
-      //     classKotak[hh1].classList.add('kotakDiagonal');
-      //     e.target.classList.remove('kotakDiagonal');
-      //   })
-      // }else if(e.target == classKotak[bloker.h2[i]]){
-      //   delHor();
-      //   bloker.h2.forEach(function(hh2){
-      //     classKotak[hh2].classList.add('kotakDiagonal');
-      //     e.target.classList.remove('kotakDiagonal');
-      //   })
-      // }else if(e.target == classKotak[bloker.h3[i]]){
-      //   delHor();
-      //   bloker.h3.forEach(function(hh3){
-      //     classKotak[hh3].classList.add('kotakDiagonal');
-      //     e.target.classList.remove('kotakDiagonal');
-      //   })
-      // }else if(e.target == classKotak[bloker.h4[i]]){
-      //   delHor();
-      //   bloker.h4.forEach(function(hh4){
-      //     classKotak[hh4].classList.add('kotakDiagonal');
-      //     e.target.classList.remove('kotakDiagonal');
-      //   })
-      // }else if(e.target == classKotak[bloker.h5[i]]){
-      //   delHor();
-      //   bloker.h5.forEach(function(hh5){
-      //     classKotak[hh5].classList.add('kotakDiagonal');
-      //     e.target.classList.remove('kotakDiagonal');
-      //   })
-      // }else if(e.target == classKotak[bloker.h6[i]]){
-      //   delHor();
-      //   bloker.h6.forEach(function(hh6){
-      //     classKotak[hh6].classList.add('kotakDiagonal');
-      //     e.target.classList.remove('kotakDiagonal');
-      //   })
-      // }else if(e.target == classKotak[bloker.h7[i]]){
-      //   delHor();
-      //   bloker.h7.forEach(function(hh7){
-      //     classKotak[hh7].classList.add('kotakDiagonal');
-      //     e.target.classList.remove('kotakDiagonal');
-      //   })
-      // }else if(e.target == classKotak[bloker.h8[i]]){
-      //   delHor();
-      //   bloker.h8.forEach(function(hh8){
-      //     classKotak[hh8].classList.add('kotakDiagonal');
-      //     e.target.classList.remove('kotakDiagonal');
-      //   })
-      // }else if(e.target == classKotak[bloker.h9[i]]){
-      //   delHor();
-      //   bloker.h9.forEach(function(hh9){
-      //     classKotak[hh9].classList.add('kotakDiagonal');
-      //     e.target.classList.remove('kotakDiagonal');
-      //   })
-      // }
-
-      // if(e.target == classKotak[bloker.v1[i]]){
-      //   delHor();
-      //   bloker.v1.forEach(function(vv1){
-      //     classKotak[vv1].classList.add('kotakDiagonal');
-      //     e.target.classList.remove('kotakDiagonal');
-      //   })
-      // }else if(e.target == classKotak[bloker.v2[i]]){
-      //   delHor();
-      //   bloker.v2.forEach(function(vv2){
-      //     classKotak[vv2].classList.add('kotakDiagonal');
-      //     e.target.classList.remove('kotakDiagonal');
-      //   })
-      // }else if(e.target == classKotak[bloker.v3[i]]){
-      //   delHor();
-      //   bloker.v3.forEach(function(vv3){
-      //     classKotak[vv3].classList.add('kotakDiagonal');
-      //     e.target.classList.remove('kotakDiagonal');
-      //   })
-      // }else if(e.target == classKotak[bloker.v4[i]]){
-      //   delHor();
-      //   bloker.v4.forEach(function(vv4){
-      //     classKotak[vv4].classList.add('kotakDiagonal');
-      //     e.target.classList.remove('kotakDiagonal');
-      //   })
-      // }else if(e.target == classKotak[bloker.v5[i]]){
-      //   delHor();
-      //   bloker.v5.forEach(function(vv5){
-      //     classKotak[vv5].classList.add('kotakDiagonal');
-      //     e.target.classList.remove('kotakDiagonal');
-      //   })
-      // }else if(e.target == classKotak[bloker.v6[i]]){
-      //   delHor();
-      //   bloker.v6.forEach(function(vv6){
-      //     classKotak[vv6].classList.add('kotakDiagonal');
-      //     e.target.classList.remove('kotakDiagonal');
-      //   })
-      // }else if(e.target == classKotak[bloker.v7[i]]){
-      //   delHor();
-      //   bloker.v7.forEach(function(vv7){
-      //     classKotak[vv7].classList.add('kotakDiagonal');
-      //     e.target.classList.remove('kotakDiagonal');
-      //   })
-      // }else if(e.target == classKotak[bloker.v8[i]]){
-      //   delHor();
-      //   bloker.v8.forEach(function(vv8){
-      //     classKotak[vv8].classList.add('kotakDiagonal');
-      //     e.target.classList.remove('kotakDiagonal');
-      //   })
-      // }else if(e.target == classKotak[bloker.v9[i]]){
-      //   delHor();
-      //   bloker.v9.forEach(function(vv9){
-      //     classKotak[vv9].classList.add('kotakDiagonal');
-      //     e.target.classList.remove('kotakDiagonal');
-      //   })
-      // }
-
-      
-
-
-
-
-
-
+      bloker.kolom1();
+      bloker.kolom2();
+      bloker.kolom3();
+      bloker.kolom4();
+      bloker.kolom5();
+      bloker.kolom6();
+      bloker.kolom7();
+      bloker.kolom8();
+      bloker.kolom9();
 
 
     }
 
-// next memasukkan syntax kotakKlik ke diagonalKlik
 
   });
 });
 
+
+
+// Rule Game
 
 
 
