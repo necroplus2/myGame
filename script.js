@@ -36,6 +36,70 @@ for(let i = 0; i < 9; i++) {
 }
 
 
+// Rule Game
+
+// console.log(Math.random()*9);
+kotakS = document.querySelectorAll('.kotak');
+// console.log(kotakS);
+
+for(let ktk = 0; ktk < 81; ktk++){
+  // console.log(ks);
+  // kotakS[ktk].innerHTML = Math.ceil(Math.random()*9);
+  
+  ktk1 = ktk < 9;
+  ktk2 = ktk > 8 && ktk < 18;
+  ktk3 = ktk > 17 && ktk < 27;
+  ktk4 = ktk > 26 && ktk < 36;
+  ktk5 = ktk > 35 && ktk < 45;
+  ktk6 = ktk > 44 && ktk < 54;
+  ktk7 = ktk > 53 && ktk < 63;
+  ktk8 = ktk > 62 && ktk < 72;
+  ktk9 = ktk > 71 && ktk < 81;
+
+
+  if(ktk1){
+    // console.log(ktk);
+    kotakS[ktk].innerHTML = Math.ceil(Math.random()*9);
+  }else if(ktk2){
+    // console.log(ktk);
+  }else if(ktk3){
+    // console.log(ktk);
+  }else if(ktk4){
+    // console.log(ktk);
+  }else if(ktk5){
+    // console.log(ktk);
+  }else if(ktk6){
+    // console.log(ktk);
+  }else if(ktk7){
+    // console.log(ktk);
+  }else if(ktk8){
+    // console.log(ktk);
+  }else if(ktk9){
+    // console.log(ktk);
+  }
+
+
+
+
+
+
+
+
+}
+
+// for(let ktk = 1; ktk < 81; ktk++){
+//   if(ktk <= 9){
+//     // console.log(ktk);
+//   }else if(ktk <= 18 && ktk >= 8){
+//     console.log(ktk)
+//   }
+// }
+
+
+
+
+
+
 // eventListener click
 const kotakIsi = document.querySelectorAll('.kotak');
 
@@ -324,14 +388,6 @@ kotakIsi.forEach(function(el){
 
   });
 });
-
-
-
-// Rule Game
-
-
-
-
 
 
 
